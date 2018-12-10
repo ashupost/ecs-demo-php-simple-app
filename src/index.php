@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Simple PHP App</title>
+        <title>Mritunjay Kumar test App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <style>body {margin-top: 40px; background-color: #333;}</style>
@@ -15,15 +15,11 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Hello Natwar/Rahul Bhai, Kem Cho</h1>
+                <h1>Hello Congratulations</h1>
                 <h2>Congratulations</h2>
-                <p>Your PHP application is now running on a container in Amazon ECS.</p>
-                <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
-                <?php
-                        $myfile = fopen("/var/www/my-vol/date", "r") or die("");
-                        echo fread($myfile,filesize("/var/www/my-vol/date"));
-                        fclose($myfile);
-                ?>
+                <p>Your Connection with database result is:.</p>
+                
+
 <?php 
 $username = "admin"; 
 $password = "MyDBPass123"; 
