@@ -24,6 +24,17 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
+<?php 
+$username = "MySQLDbUser"; 
+$password = "MySQLDbPass123"; 
+$hostname = "mml00xxv4h8mhz.cjitpidcqrec.us-west-2.rds.amazonaws.com"; 
+$dbname = "acloudguru";
+
+//connection to the database
+$dbhandle = mysql_connect($hostname, $username, $password) or die("Unable to connect to MySQL"); 
+echo "Connected to MySQL using username - $username, password - $password, host - $hostname<br>"; 
+$selected = mysql_select_db("$dbname",$dbhandle)   or die("Unable to connect to MySQL DB - check the database name and try again."); 
+?>
 
             </div>
         </div>
