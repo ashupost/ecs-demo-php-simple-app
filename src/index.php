@@ -25,9 +25,9 @@
                         fclose($myfile);
                 ?>
 <?php 
-$username = "MySQLDbUser"; 
-$password = "MySQLDbPass123"; 
-$hostname = "mml00xxv4h8mhz.cjitpidcqrec.us-west-2.rds.amazonaws.com"; 
+$username = "admin"; 
+$password = "MyDBPass123"; 
+$hostname = "emnlcut759ffs.cvkqavmqhnef.eu-west-1.rds.amazonaws.com"; 
 $dbname = "MyDatabase";
 
 //connection to the database
