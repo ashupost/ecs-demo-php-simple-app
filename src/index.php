@@ -15,8 +15,8 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Hello Congratulations</h1>
-                <h2>Congratulations</h2>
+                <h1>Hello Congratulations...Mritunjay</h1>
+                
                 <p>Your Connection with database result is:.</p>
                 
 
